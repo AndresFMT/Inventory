@@ -35,6 +35,7 @@ namespace WebAppInventario
             return objElemento;
         }
 
+
         protected void BtnGuardar_Click(object sender, EventArgs e)
         {
             Ingreso_Elemento objElemento = GetEntity();
