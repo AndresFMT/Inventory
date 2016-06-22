@@ -28,7 +28,7 @@ namespace WebAppInventario
             objElemento.Modelo = TxtModelo.Text;
             objElemento.Categoria_Id_Categoria = 0;
             objElemento.Fecha_Ingreso = Convert.ToDateTime(TxtFecha.Text);
-            objElemento.Estado_Id_Estado = Convert.ToInt32(ddlEstado.Text);
+            objElemento.Estado_Id_Estado = 0;
             objElemento.Nombre_Elemento = TxtNombre.Text;
             objElemento.Fk_Id_Empleado = 0;
 
