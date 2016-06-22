@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Empleado.cs" />
+    <Compile Include="Ingreso_Elemento.cs" />
     <Compile Include="TipoEmpleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

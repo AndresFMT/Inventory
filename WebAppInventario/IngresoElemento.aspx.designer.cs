@@ -10,7 +10,7 @@
 namespace WebAppInventario {
     
     
-    public partial class IngresoElementos {
+    public partial class IngresoElemento {
         
         /// <summary>
         /// Control TxtId.

@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data_Usuario.cs" />
+    <Compile Include="ElementoDao.cs" />
     <Compile Include="EmpleadoDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

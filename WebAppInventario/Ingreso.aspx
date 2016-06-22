@@ -22,7 +22,7 @@
           </div>
           <div class="footer">
               <asp:Button ID="btnIngreso" CssClass="btn bg-olive btn-block" runat="server" Text="Iniciar Sesión" OnClick="btnIngreso_Click" />
-              <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BDInventarioConnectionString %>" SelectCommand="ValidarUsuario" SelectCommandType="StoredProcedure">
+              <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:WebFormsIdentityConnectionString %>" SelectCommand="ValidarUsuario" SelectCommandType="StoredProcedure">
                   <SelectParameters>
                       <asp:ControlParameter ControlID="txtUsuario" Name="usuario" PropertyName="Text" Type="String" />
                       <asp:ControlParameter ControlID="txtContraseña" Name="Contraseña" PropertyName="Text" Type="String" />
